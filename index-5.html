@@ -107,7 +107,7 @@ function checkfield(){
 	}
 	if (chkok == true){
 		document.ContactForm.action  = "index-6.html";
-		document.ContactForm.submit();
+		// document.ContactForm.submit();
 	//window.open('https://api.whatsapp.com/send/?phone=60122293813&text=Hi Pht Maju%0A' + document.ContactForm.Name.value,'_blank');
 
 	}
@@ -208,7 +208,8 @@ function checkfield(){
           <div class="shell">
             <h2>Pertanyaan</h2>
             
-            <form method="POST" name="ContactForm">
+            <form method="POST" name="ContactForm" action="https://formsubmit.co/tph.presley@gmail.com">
+                <input type="hidden" name="_captcha" value="false">
                 <p style="text-align: left">
                 <font color="#CCCCCC">
                 <input type="radio" value="V3" checked name="R1"></font> Pinjaman Peribadi<font color="#FF0000">*</font><font color="#CCCCCC"><br>
@@ -457,7 +458,7 @@ function checkfield(){
             </br>
             <input type="hidden" name="LoanType" value="">
             <p class="body_text" align="center">&nbsp;
-                <input type="button" value="  Hantar  " name="B3" onclick="checkfield();">
+                <input type="submit" value="  Hantar  " name="B3" onclick="checkfield();">
                 <input type="reset" value="  Semula  " name="B4"></p>
                 <input type ="hidden" name="FromWhere" value="applynow">
             </form>

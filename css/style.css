@@ -45313,11 +45313,11 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 }
 
 .slick-prev:before {
-  content: "â†?;
+  content: "ï¿½?;
 }
 
 [dir="rtl"] .slick-prev:before {
-  content: "â†?;
+  content: "ï¿½?;
 }
 
 .slick-next {
@@ -45330,11 +45330,11 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 }
 
 .slick-next:before {
-  content: "â†?;
+  content: "ï¿½?;
 }
 
 [dir="rtl"] .slick-next:before {
-  content: "â†?;
+  content: "ï¿½?;
 }
 
 /* Dots */
@@ -45387,7 +45387,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
   position: absolute;
   top: 0;
   left: 0;
-  content: "â€?;
+  content: "ï¿½?;
   width: 12px;
   height: 12px;
   font-family: "Open Sans", sans-serif;
@@ -47984,3 +47984,31 @@ a.pswp__share--download:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 6px 0 #1da851;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebd5a;
+  box-shadow: 0 4px 0 #168f40;
+  transform: translateY(2px);
+}
+
+.whatsapp-button:active {
+  background-color: #169c48;
+  box-shadow: 0 2px 0 #0f6d33;
+  transform: translateY(4px);
+}
